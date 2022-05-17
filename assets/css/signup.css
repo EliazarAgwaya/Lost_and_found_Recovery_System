@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ABEFE7;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 650px;
+    margin: 20vh;
+    margin-left: 400px;
+    background: #CFBACD;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 50px;
+}
+.container h1{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-bottom: 1px solid gray;
+}
+.container p{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+#error-txt, #pass-error,#email-error{
+    display: none;
+    width: 350px;
+    background-color: rgba(255,69,0, 0.3);
+    color: darkred;
+    text-align: center;
+    padding: 10px;
+    margin: 12px;
+    margin-left: 100px;
+}
+input{
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid lightblue;
+}
+input:focus{
+    background-color: azure;
+    border: none;
+}
+.names, .contacts, .passwords{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 10px 170px;
+    padding: 4px;
+    font-size: 25px;
+    font-weight: 600;
+    border: 0;
+    color: aliceblue;
+    background: blue;
+    border-radius: 12px;
+}
+.deets{
+    padding: 10px;
+}
+.deets p{
+    margin: 10PX;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-size: 25px;
+    color: azure;
+    background: blue;
+    
+}
+p span{
+    margin: 0 3px;
+    font-size: 23px;
+}
+button:hover{
+    color: blue;
+    border: 2px solid blue;
+    background: white;
+    cursor: pointer;
+}
