@@ -90,6 +90,11 @@ nav ul li a:hover{
 nav ul li .dropdown {
     position: relative;
     display: inline-block;
+    color: white;
+}
+
+nav ul li #dropd{
+    color: #F79A05;
 }
   
 .dropdown-content {
