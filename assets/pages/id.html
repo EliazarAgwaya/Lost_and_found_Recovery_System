@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/id.css">
-    <link rel="stylesheet" href="../css/style.css">
     <title>IdentityCards</title>
 </head>
 <body>
@@ -14,15 +13,16 @@
         <input type="text" placeholder="Search..">
     </div>
     <section class="container">
-        <div class="identity">
-            <img src="../images/id.jpeg" alt="idImg">
-            <div class="description">
-                <label>Name:</label>
-                <label>ID number:</label>
-                <p>Description:</p> 
+            <div class="identity">
+                <img src="../images/id.jpeg" alt="idImg">
+                <div class="description">
+                    <label>Name:</label>
+                    <label>ID number:</label>
+                    <p>Description:</p> 
+                </div>
+                <button type="submit" onclick="check()" >Claim</button>
             </div>
-            <button>Claim</button>
-        </div>
+
         <div class="identity">
             <img src="../images/id.jpeg" alt="idImg">
             <div class="description">
@@ -30,7 +30,7 @@
                 <label>ID number:</label>
                 <p>Description:</p>
             </div>
-            <button>Claim</button>
+            <button onclick="check()">Claim </button>
         </div>
         <div class="identity">
             <img src="../images/id.jpeg" alt="idImg">
@@ -39,7 +39,7 @@
                 <label>ID number:</label>
                 <p>Description:</p>
             </div>
-            <button>Claim</button>
+            <button onclick="check()" >Claim</button>
         </div>
         <div class="identity">
             <img src="../images/id.jpeg" alt="idImg">
@@ -48,17 +48,7 @@
                 <label>ID number:</label>
                 <p>Description:</p>
             </div>
-            <button>Claim</button>
-        </div>
-
-        <div class="identity">
-            <img src="../images/id.jpeg" alt="idImg">
-            <div class="description">
-                <label>Name:</label>
-                <label>ID number:</label>
-                <p>Description:</p>
-            </div>
-            <button>Claim</button>
+            <button onclick="check()">Claim</button>
         </div>
 
         <div class="identity">
@@ -68,7 +58,17 @@
                 <label>ID number:</label>
                 <p>Description:</p>
             </div>
-            <button>Claim</button>
+            <button onclick="check()">Claim</button>
+        </div>
+
+        <div class="identity">
+            <img src="../images/id.jpeg" alt="idImg">
+            <div class="description">
+                <label>Name:</label>
+                <label>ID number:</label>
+                <p>Description:</p>
+            </div>
+            <button onclick="check()">Claim</button>
         </div>
         <div class="identity">
             <img src="../images/id.jpeg" alt="idImg">
@@ -77,7 +77,7 @@
                 <label>ID number:</label>
                 <p>Description:</p>
             </div>
-            <button>Claim</button>
+            <button onclick="check()">Claim</button>
         </div>
         <div class="identity">
             <img src="../images/id.jpeg" alt="idImg">
@@ -86,7 +86,7 @@
                 <label>ID number:</label>
                 <p>Description:</p>
             </div>
-            <button>Claim</button>
+            <button onclick="check()">Claim</button>
         </div>
                 <div class="identity">
             <img src="../images/id.jpeg" alt="idImg">
@@ -95,8 +95,19 @@
                 <label>ID number:</label>
                 <p>Description:</p>
             </div>
-            <button>Claim</button>
+            <button onclick="check()">Claim</button>
         </div>
     </section>
+    <div class="formboard hide" >
+        <h2>Description</h2>
+        <form>
+            <input type="text" placeholder="Enter your name"><br><br>
+            <input type="text" placeholder="Enter Your Identity Card"><br><br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Brief description of your lost Document"></textarea><br><br>
+            <button class="btn" type="submit" onclick="check()">submit</button>
+        </form>
+    </div>
+    <script src="../js/id.js"></script>
+
 </body>
 </html>
