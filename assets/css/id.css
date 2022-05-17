@@ -32,7 +32,8 @@ section{
     justify-content: space-around;
     align-items: center;
     width: 80%;
-    flex-wrap: wrap;  
+    flex-wrap: wrap; 
+    position: relative; 
 }
 .container .identity{
     padding: 30px 20px ;
@@ -88,6 +89,37 @@ section{
     outline: none;
     background-color: #042123;
 }
-
+.formboard{
+    background-color: rgb(124, 115, 115);
+    padding: 10px;
+    width:30%;
+    height: 500px;
+    position: fixed;
+    top: 13%;
+    border-radius: 10px;
+    border:white;
+    text-align: center;
+    margin-left:35%;
+    display: none;
+}
+.formboard input,textarea, .btn{
+    width: 100%;
+    padding: 20px;
+}
+.formboard h2{
+    color: white;
+}
+.formboard input,textarea, .btn{
+    width: 100%;
+    padding: 20px;
+}
+.formboard input,textarea{
+    border-radius: 10px;
+}
+.formboard  .btn{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
 
 
