@@ -37,17 +37,57 @@ section{
 }
 .container .identity{
     padding: 30px 20px ;
+    background: linear-gradient(310deg, #5823fb, #9058bd, #24b2fb, #24fba8);
+    transition: all 0.3s ease-in-out;
+    animation: oscillateBG 10s ease infinite;;
+    background-size: 600% 600%;
+    position: relative;
+    margin-top: 30px;
 }
+
+@keyframes oscillateBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.identity img{
+    width: 300px;
+}
+
 .container button{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 15px 20px;
-    color:white;
     background-color: black;
     border-radius: 10px;
     margin:10% 0 0 30%;
-    
+    border: none;
+    transform: rotate3d(180deg);
+}
+
+.container button a{
+    color:white;
+}
+
+.container button:hover{
+    color: #042123;
+    letter-spacing: 0.2rem;
+    background-color: #1e9bff;
+    box-shadow: 0 0 35px #1e9bff;
+    transition: 0.8s ease;
+}
+
+.container button:focus{
+    outline: none;
+    background-color: #042123;
 }
 .formboard{
     background-color: rgb(124, 115, 115);
