@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("../images/world.jpg");
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.contactus{
+    margin: 20px;
+    width: 60%;
+    
+}
+.contactus h2,p{
+    margin-bottom: 10px;
+
+    
+}
+.contactus ,h2, p{
+    color: white
+}
+.form .input, textarea{
+    width: 700px;
+    padding: 10px;
+    margin:15px 0 15px 0;
+}
+input ,textarea:focus{
+    border: none;
+}
+.form .checkb ,button{
+    margin:25px 0 25px 0;
+}
+.form button{
+    padding: 10px 30px;
+}
+.form span{
+    border: 1px solid white;
+    padding: 20px;
+    background-color: rgb(27, 26, 26);
+}
+.form .checkb{
+    padding: 10px;
+}
+.socialinfo{
+    margin-top: 20vh;
+}
+.socialinfo, h3, p{
+    color: white;
+}
+.socialinfo, p, i{
+    margin-bottom: 30px;
+}
+.socialinfo i{
+    padding: 10px;
+    font-size: 55px;
+}
+.socialinfo p{
+    font-weight: 700;
+
+}
+.socialinfo h3{
+    font-size: 50px;
+}
