@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Signup</h1>
+        <p id="error-txt">All input Fields are required</p>
+        <p id="pass-error">password and re-type password dont match</p>
+        <p id="email-error"> enter valid email</p>
+        <form action="">
+           <div class="names">
+            <input type="text" placeholder="Enter First Name" id="fname">
+            <input type="text" placeholder="Enter Last Name" id="lname">
+           </div>
+           <div class="contacts">
+                <input type="Email" placeholder="Email" id="email">
+                <p id="email-error"> enter valid email</p>
+                <input type="number" placeholder="Contact" id="contact">
+           </div>
+            <div class="passwords">
+                <input type="password" placeholder="Password" id="pass">
+                <input type="pasword" placeholder="re-type password" id="retype">
+            </div>
+        </form>
+        <button id="signup-btn">Signup</button>
+        <div class="deets">
+            <p>Already a Member? Click <span> <a href="./login.html"> here </a> </span> to login </p>
+        </div>
+    </div>
+    <script src="../js/signup.js"></script>
+</body>
+</html>
