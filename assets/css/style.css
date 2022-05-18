@@ -197,10 +197,13 @@ footer .title-text p{
     font-size: 50px;
     color: #fff;
 }
+
 @media screen and (max-width:770px){
     .title-text h1{
         font-size: 35px;
     }
+}
+
 footer .container{
     display: flex;
     justify-content: space-between;
@@ -275,12 +278,13 @@ footer p{
 .com-with-us p{
     text-align: center;
     padding-top: 20px;
+    margin-left: 25px;
 }
 
 .smi{
     margin-top: 20px;
     display: flex;
-    margin-left: 550px;
+    margin-left: 570px;
 }
   
 .smi li{
@@ -304,11 +308,11 @@ footer p{
     background: rgb(5, 21, 248);
 }
   
-  .link1 a:hover {
+.link1 a:hover {
     background-color: orangered;
-  }
+}
   
-  .smi li a i{
+.smi li a i{
     color:#fff;
     font-size: 20px;
-  }
+}
