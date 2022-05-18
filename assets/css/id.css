@@ -10,8 +10,7 @@ body{
     display: flex;
     justify-content: flex-end;
     padding: 20px;
-    margin: 10px;
-    background-color:#4C4A18;
+    background-color:#042123;
     color: white;
     height: 150px;
 }
@@ -59,14 +58,16 @@ section{
     width: 80%;
     flex-wrap: wrap; 
     position: relative; 
+    margin-bottom: 30px;
 }
 .container .identity{
     padding: 30px 20px ;
-    background: linear-gradient(310deg, #5823fb, #9058bd, #24b2fb, #24fba8);
     transition: all 0.3s ease-in-out;
+    background-color: #042123;
     animation: oscillateBG 10s ease infinite;;
     background-size: 600% 600%;
     position: relative;
+    color: white;
     margin-top: 30px;
 }
 
