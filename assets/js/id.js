@@ -4,5 +4,7 @@ var message=document.getElementById("message");
 
 function check(){
     var formEl=document.querySelector(".formboard");
-    formEl.style.display ="block";
+    formEl.style.display ="block"
+
+
 }
