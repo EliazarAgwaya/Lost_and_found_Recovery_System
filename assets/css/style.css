@@ -125,7 +125,6 @@ nav ul li #dropd{
     background-position: center;
     background-size: cover;
 }
-
 nav ul li button{
     background-color: #0f919b;
     color: #CC5500;
@@ -158,4 +157,3 @@ nav ul li button:focus{
     outline: none;
     background-color: #042123;
 }
-

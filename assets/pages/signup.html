@@ -6,29 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup</title>
     <link rel="stylesheet" href="../css/signup.css">
+    <script src="https://kit.fontawesome.com/f685c0da81.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
         <h1>Signup</h1>
+        <p id="success-el">Signup was successful</p>
         <p id="error-txt">All input Fields are required</p>
         <p id="pass-error">password and re-type password dont match</p>
+        <p id="pass-el">Password must be more than eight characters</p>
         <p id="email-error"> enter valid email</p>
         <form action="">
            <div class="names">
-            <input type="text" placeholder="Enter First Name" id="fname">
-            <input type="text" placeholder="Enter Last Name" id="lname">
+                <i class="fa fa-user icon"></i>
+                <input type="text" placeholder="Enter First Name" id="fname">
+                <input type="text" placeholder="Enter Last Name" id="lname">
            </div>
            <div class="contacts">
+                <i class="fa fa-envelope icon"></i>
                 <input type="Email" placeholder="Email" id="email">
                 <p id="email-error"> enter valid email</p>
+                <i class="fa-solid fa-phone icon"></i>
                 <input type="number" placeholder="Contact" id="contact">
            </div>
-            <div class="passwords">
+            <div class="passwords">              
+                <i class="fa-solid fa-eye-slash icon" onclick="showPassword()"></i>
                 <input type="password" placeholder="Password" id="pass">
-                <input type="pasword" placeholder="re-type password" id="retype">
+                <input type="password" placeholder="re-type password" id="retype">
             </div>
         </form>
-        <button id="signup-btn">Signup</button>
+        <a href=""></a>
+        <button id="signup-btn"> Signup</button>
         <div class="deets">
             <p>Already a Member? Click <span> <a href="./login.html"> here </a> </span> to login </p>
         </div>
