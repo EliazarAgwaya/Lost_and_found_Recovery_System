@@ -125,7 +125,6 @@ nav ul li #dropd{
     background-position: center;
     background-size: cover;
 }
-
 nav ul li button{
     background-color: #0f919b;
     color: #CC5500;
@@ -198,13 +197,10 @@ footer .title-text p{
     font-size: 50px;
     color: #fff;
 }
-
 @media screen and (max-width:770px){
     .title-text h1{
         font-size: 35px;
     }
-}
-
 footer .container{
     display: flex;
     justify-content: space-between;
