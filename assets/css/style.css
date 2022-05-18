@@ -194,7 +194,7 @@ nav ul li button:focus{
 
 footer{
     padding:100px 0 20px;
-    background:#4d4a18;
+    background:#042123;
     position: relative;
     color: white;
 }
@@ -227,7 +227,7 @@ footer{
 
 .footer-left, .footer-right .fa{
     font-size: 20px;
-    color: #042123;
+    color:white;
     margin: 10px;
 }
 
