@@ -158,6 +158,10 @@ nav ul li button:focus{
     background-color: #042123;
 }
 
+.hide{
+    display: none;
+}
+
 footer{
     padding: 40px 0;
     background: #042123;
