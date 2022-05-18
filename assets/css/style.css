@@ -157,3 +157,161 @@ nav ul li button:focus{
     outline: none;
     background-color: #042123;
 }
+
+footer{
+    padding: 40px 0;
+    background: #042123;
+    position: relative;
+}
+
+footer .title-text{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+footer .title-text p{
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    color: white;
+    display: inline-block;
+}
+
+.title-text p::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(#042123, #fff);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transition: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.title-text h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+@media screen and (max-width:770px){
+    .title-text h1{
+        font-size: 35px;
+    }
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 50px;
+}
+
+footer .container .sec{
+    margin-right: 30px;
+}
+
+
+footer .container .aboutus{
+    width: 40%;
+}
+  
+footer .container h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+footer .container h2:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: rgb(0, 217, 255);
+}
+
+footer p{
+    color: #999;
+}
+
+.contact{
+    width:cal(35% - 60px);
+    margin-right: 0 !important;
+}
+
+.contact .info{
+    position: relative;
+}
+
+.contact .info li{
+    display: flex;
+    margin-bottom: 16px;
+}
+  
+.contact .info li span :nth-child(1){
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact .info li span{
+    color: #999;
+}
+  
+.contact .info li a{
+    color: #999;
+    text-decoration: none;
+}
+  
+.contact .info li a:hover{
+    color:#fff;
+}
+
+.com-with-us p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.smi{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 550px;
+}
+  
+.smi li{
+    list-style:none;
+  }
+  
+.smi li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+  
+.smi li a:hover{
+    background: rgb(5, 21, 248);
+}
+  
+.link1 a:hover {
+    background-color: orangered;
+}
+  
+.smi li a i{
+    color:#fff;
+    font-size: 20px;
+} 
