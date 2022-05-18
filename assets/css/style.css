@@ -308,11 +308,11 @@ footer p{
     background: rgb(5, 21, 248);
 }
   
-  .link1 a:hover {
+.link1 a:hover {
     background-color: orangered;
-  }
+}
   
-  .smi li a i{
+.smi li a i{
     color:#fff;
     font-size: 20px;
-  } 
+} 
