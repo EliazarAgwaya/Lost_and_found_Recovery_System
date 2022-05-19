@@ -35,6 +35,8 @@ header h2{
 
 header h2 span{
     animation: animate 5s linear infinite;
+    font-size: 40px;
+    font-weight: bolder;
 }
 
 header h2 span:nth-child(even){
@@ -80,7 +82,11 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #F79A05;
+    color: white;
+    font-size: larger;
+}
+#log{
+    font-size: larger;
 }
 
 nav ul li a:hover{
@@ -96,7 +102,7 @@ nav ul li .dropdown {
 }
 
 nav ul li #dropd{
-    color: #F79A05;
+    color: white;
 }
   
 .dropdown-content {
