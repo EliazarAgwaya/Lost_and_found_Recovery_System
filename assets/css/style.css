@@ -7,19 +7,16 @@
     list-style: none;
     text-decoration: none;
 }
-
 body{
     width: 100vw;
     height: 100vh;
 
 }
-
 .header{
-    background: #07252d;
+    background: #031e25;
     padding-bottom: 1.25rem;
     width: 100%;
 }
-
 .header header{
     display: flex;
     width: 100%;
