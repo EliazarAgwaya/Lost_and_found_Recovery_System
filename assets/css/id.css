@@ -146,4 +146,27 @@ section{
     background-color: black;
     border-radius: 10px;
 }
+/* phone queries */
+@media screen and (max-width:600px) {
+
+.nav{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.nav ul{
+    flex-wrap: wrap;
+}
+.nav li{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 7px;
+    flex-wrap: wrap;
+
+
+}
+    
+}
 

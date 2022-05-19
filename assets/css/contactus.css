@@ -13,6 +13,7 @@ body{
     margin: 10px;
     color: white;
     height: 150px;
+    width: 100%;
 }
 .nav ul{
     margin-top:30px;
@@ -83,3 +84,85 @@ input ,textarea:focus{
 .socialinfo h3{
     font-size: 50px;
 }
+@media screen and (max-width:600px) {
+
+.nav{
+
+    flex-wrap: wrap;
+    margin-left: -30px;
+}  
+
+.form .input, textarea{
+    width: 200px;
+    padding: 10px;
+    margin:15px 0 15px 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.form .checkb ,button{
+    margin:15px 0 15px 0;
+}
+.form button{
+    padding: 5px 10px;
+}
+.form span{
+    border: 1px solid white;
+    padding: 5px;
+    background-color: rgb(27, 26, 26);
+    flex-wrap: wrap;
+}
+.form .checkb{
+    padding: 5px;
+}
+
+.socialinfo{
+    margin-top: 20vh;
+    margin-left: 30px;
+    margin-top:37%;
+}
+.socialinfo, h3, p{
+    color: white;
+    width: 100%;
+}
+.socialinfo, p, i{
+    margin-bottom: 40px;
+}
+.socialinfo i{
+    padding: 5px;
+    font-size: 25px;
+}
+}
+
+@media screen and (max-width:1024px) {
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+    }
+
+.contactus{
+    margin: 20px;
+    width: 40%;
+    
+}
+.contactus h2,p{
+    margin-bottom: 10px;
+
+    
+}
+.contactus ,h2, p{
+    color: white
+}
+.form .input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin:15px 0 15px 0;
+}
+    
+   
+    }
