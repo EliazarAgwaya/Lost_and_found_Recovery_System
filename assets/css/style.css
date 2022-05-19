@@ -60,7 +60,10 @@ header h2 span:nth-child(even){
     }
 }
 button{
-    color: #F79A05;
+    color: black;
+}
+#black{
+    color: black;
 }
 nav{
     width: 350%;
