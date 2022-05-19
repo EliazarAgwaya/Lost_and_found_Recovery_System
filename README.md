@@ -1,9 +1,11 @@
-# Lost and Found Recovery System
- ## By: Eliazar Agwaya, Newton Ombese, Ezra Njeru & Dennis Kiprop
+# LOST AND FOUND RECOVERY SYSTEM
+
+## By: Eliazar Agwaya, Newton Ombese, Ezra Njeru & Dennis Kiprop
 ## Screenshot
- ![image](./assets)
+ ![image](./assets/images/Screenshot%20from%202022-05-19%2014-16-18.png)
  ## Table of Content
  - [Description](#description)
+ - [Design](#Design)
  - [Features](#features)
  - [Behaviour Driven Development](#Behaviour-Driven-Development)
  - [Requirements](#requirements)
@@ -13,7 +15,10 @@
  - [Licence](#licence)
  - [Authors Info](#Authors-Info)
  ## Description
- <p>This project is a web application which helps people recover their lost documents like ID and Licence. We post the found documents on our application and if one finds his/her lost documents in the site, they can make a claim by providing the name, ID number or licence number and a description.</p>
+ This project is a web application which helps people recover their lost documents like ID and Licence. We post the found documents on our application and if one finds his/her lost documents in the site, they can make a claim by providing the name, ID number or licence number and a description.
+
+## Design
+The link to Our Figma design is https://www.figma.com/file/WsTPRMGt4Ug7ywmWip69a6/My-file?node-id=0%3A1
 
 ## Features
 A user will be able to:
@@ -48,7 +53,7 @@ A user will be able to:
 
 ## Licence
 MIT License
-Copyright (c) [2019] [Lost & Found]
+Copyright (c) [2022] [Lost & Found]
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -66,3 +71,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Authors Info
+
+Eliazar Agwaya <https://github.com/EliazarAgwaya>
+
+Dennis Kiprop <https://github.com/Mkdenno>
+
+Newton Ombese <https://github.com/NewtonOmbese>
+
+Ezra Njeru <https://github.com/Ezra-code>
