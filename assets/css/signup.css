@@ -145,9 +145,15 @@ input{
 }
 .deets{
     flex-wrap: wrap;
+    flex-direction: column;
 }
 .deets p{
     margin: 10PX;
+}
+.names > input{
+    display: flex;
+    flex-direction: column;
+    font-size: 5px;
 }
     
 }
@@ -174,9 +180,27 @@ input{
     }
     .deets{
         flex-wrap: wrap;
+        flex-direction: column;
     }
     .deets p{
         margin: 10PX;
+    }
+    .names input{
+        display: flex;
+        flex-direction: column;
+        font-size: 9px;
+    }
+    .contacts >input{
+        display: flex;
+        flex-direction: column;
+        font-size: 9px;
+
+    }
+    .passwords >input{
+        display: flex;
+        flex-direction: column;
+        font-size: 9px;
+
     }
         
     }
