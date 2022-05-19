@@ -7,20 +7,16 @@
     list-style: none;
     text-decoration: none;
 }
-
 body{
     width: 100vw;
     height: 100vh;
 
 }
-
 .header{
-    background: #07252d;
+    background: #031e25;
     padding-bottom: 1.25rem;
-    position: fixed;
     width: 100%;
 }
-
 .header header{
     display: flex;
     width: 100%;
@@ -60,7 +56,12 @@ header h2 span:nth-child(even){
         0 0 400px #03bcf4;    
     }
 }
-
+button{
+    color: black;
+}
+#black{
+    color: black;
+}
 nav{
     width: 350%;
     line-height: 1.5rem;
@@ -70,6 +71,7 @@ nav{
 nav ul{
     text-align: right;
     margin-left: 20px;
+    
 }
 
 nav ul li{
@@ -121,10 +123,11 @@ nav ul li #dropd{
 .maincontent{
     background: url(../images/licence.jpg);
     width: 100%;
-    height: 100vh;
+    height: max-content;
     background-position: center;
     background-size: cover;
 }
+
 nav ul li button{
     background-color: #0f919b;
     color: #CC5500;
@@ -156,4 +159,206 @@ nav ul li button::before{
 nav ul li button:focus{
     outline: none;
     background-color: #042123;
+}
+
+.hide{
+    display: none;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    padding-top: 150px;
+}
+  
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active {
+    background-color: #717171;
+}
+  
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.fade img{
+    height: 480px;
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}
+
+footer{
+    padding: 40px 0;
+    background: #042123;
+    position: relative;
+}
+
+footer .title-text{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+footer .title-text p{
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    color: white;
+    display: inline-block;
+}
+
+.title-text p::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(#042123, #fff);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transition: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.title-text h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+@media screen and (max-width:770px){
+    .title-text h1{
+        font-size: 35px;
+    }
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 50px;
+}
+
+footer .container .sec{
+    margin-right: 30px;
+}
+
+
+footer .container .aboutus{
+    width: 40%;
+}
+  
+footer .container h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+footer .container h2:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: rgb(0, 217, 255);
+}
+
+footer p{
+    color: #999;
+}
+
+.contact{
+    width:cal(35% - 60px);
+    margin-right: 0 !important;
+}
+
+.contact .info{
+    position: relative;
+}
+
+.contact .info li{
+    display: flex;
+    margin-bottom: 16px;
+}
+  
+.contact .info li span :nth-child(1){
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact .info li span{
+    color: #999;
+}
+  
+.contact .info li a{
+    color: #999;
+    text-decoration: none;
+}
+  
+.contact .info li a:hover{
+    color:#fff;
+}
+
+.com-with-us p{
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 25px;
+}
+
+.smi{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 570px;
+}
+  
+.smi li{
+    list-style:none;
+  }
+  
+.smi li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+  
+.smi li a:hover{
+    background: rgb(5, 21, 248);
+}
+  
+.link1 a:hover {
+    background-color: orangered;
+}
+  
+.smi li a i{
+    color:#fff;
+    font-size: 20px;
 }

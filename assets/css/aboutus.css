@@ -7,6 +7,29 @@ body{
     background:fixed;
     background-repeat: none;
     background-size:auto;
+    overflow-x: hidden;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color:#042123;
+    color: white;
+    height: 150px;
+    width: 100%;
+
+}
+.nav ul{
+    margin-top:30px;
+}
+.nav li{
+    display: inline;
+    margin: 20px;
+    border: 1px solid white;
+    padding: 12px;
+    border-radius: 10px;
+
 }
 .container{
     display: flex;
@@ -44,4 +67,243 @@ body{
 }
 #more{
     display: none;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.logo h1 p{
+    width:50px;
+    margin: 20px;
+    padding: 35px;
+}
+.logo p{
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 20px;
+}
+.logo h1 {
+    margin-bottom: 10px;
+}
+footer .title-textt{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+footer .title-textt p{
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    color: white;
+    display: inline-block;
+}
+
+.title-textt p::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(#042123, #fff);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transition: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.title-textt h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+@media screen and (max-width:770px){
+    .title-textt h1{
+        font-size: 35px;
+    }
+}
+
+footer .containerr{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 50px;
+}
+
+footer .container .seco{
+    margin-right: 30px;
+}
+
+
+footer .container .aboutuss{
+    width: 40%;
+}
+  
+footer .containerr h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+footer .containerr h2:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: rgb(0, 217, 255);
+}
+
+footer p{
+    color: #999;
+}
+
+.contactt{
+    width:cal(35% - 60px);
+    margin-right: 0 !important;
+}
+
+.contactt .info{
+    position: relative;
+}
+
+.contactt .info li{
+    display: flex;
+    margin-bottom: 13px;
+}
+  
+.contactt .info li span :nth-child(1){
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contactt .info li span{
+    color: #999;
+}
+  
+.contactt .info li a{
+    color: #999;
+    text-decoration: none;
+}
+  
+.contactt .info li a:hover{
+    color:#fff;
+}
+
+.comm-with-us p{
+    text-align: center;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+
+.smii{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 570px;
+}
+  
+.smii li{
+    list-style:none;
+  }
+  
+.smii li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+  
+.smii li a:hover{
+    background: rgb(5, 21, 248);
+}
+  
+.link2 a:hover {
+    background-color: orangered;
+}
+  
+.smii li a i{
+    color:#fff;
+    font-size: 20px;
+}
+@media screen and (max-width:600px) {
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    background-color:#042123;
+    color: white;
+    height: 150px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+.nav ul{
+    margin-top:30px;
+}
+.nav li{
+    display: inline;
+    margin: 5px;
+    border: 1px solid white;
+    padding: 12px;
+    border-radius: 10px;
+
+}
+
+.container{
+    margin: 10%;
+    flex-wrap: wrap;
+}
+.images{
+    margin: 0 20px 0 0;
+    margin-top: 40px;
+}
+.images img{
+    height:180px;
+    width: 250px;
+    border-radius: 10px;
+
+}
+
+.aboutus{
+    font-size: 10px;
+    width: 500px;
+    margin-left: 30%;
+}
+.aboutus h2{
+    font-size: 35px;
+
+}
+.aboutus h2,p{
+    padding:0 0 30px 0;
+    font-weight: 900;
+}
+.aboutus button{
+    padding: 20px;
+    color: white;
+    background-color: rgb(24, 23, 23);
+    border-radius: 10px;
+}
+#more{
+    display: none;
+}
+    
 }

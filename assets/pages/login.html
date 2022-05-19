@@ -6,25 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup</title>
     <link rel="stylesheet" href="../css/signup.css">
+    <link rel="shortcut icon" href="../images/A8yb0MXz6DhFthUyEMO-1LCYZbezs2gODqyvUrxbWn0S2sh5.png" type="image/x-icon">
 </head>
 <body>
     <div class="container">
         <h1>Login</h1>
         <p id="error-txt">All input Fields are required</p>
+        <p id="pass-error">Password not valid</p>
+        <p id="mail-error">Email not valid</p>
         <form action="">
            <div class="contacts">
-                <input type="Email" placeholder="Email">
+                <input type="Email" placeholder="Email" id="email">
                 <p id="email-error"> enter valid email</p>
            </div>
             <div class="passwords">
-                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Password" id="pswd">
             </div>
         </form>
-        <button>Login</button>
+        <button id="login" type="submit">Login</button>
         <div class="deets">
             <p>Not a Member? Click <span> <a href="./signup.html"> here </a> </span> to Signup</p>
-            <p><a href="">Forgot Password</a></p>
         </div>
     </div>
+    <script src="../js/login.js"></script>
 </body>
 </html>
