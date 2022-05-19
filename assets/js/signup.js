@@ -11,16 +11,19 @@ let passError = document.getElementById('pass-error')
 let contactEl = document.getElementById('contact')
 let successEl = document.getElementById('success-el')
 let details = []
-signupBtn.addEventListener('click', (e) =>{
-    e.preventDefault()
-    if(firstName.value == '' || lastName.value =='' || contactEl.value == '' || emailEl.value == ''){
+signupBtn.addEventListener('click', () =>{
+    if(firstName.value == '' && lastName.value =='' && contactEl.value == '' && emailEl.value == ''){
         errorTxt.style.display = 'block'
     }else{
-        console.log(firstName.value + ' ' + lastName.value)
-        validateEmail()
-        passwordValidation()
-        window.location.href = "../pages/login.html"    
+        successEl.style.display = 'block'
+        window.location.href = "../pages/login.html"  
     }
+    //else{
+    //     console.log(firstName.value + ' ' + lastName.value)
+    //     validateEmail()
+    //     passwordValidation()
+    //     window.location.href = "../pages/login.html"    
+    // }
 
 })
 
