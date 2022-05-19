@@ -17,7 +17,6 @@ body{
 .header{
     background: #07252d;
     padding-bottom: 1.25rem;
-    position: fixed;
     width: 100%;
 }
 
@@ -60,7 +59,9 @@ header h2 span:nth-child(even){
         0 0 400px #03bcf4;    
     }
 }
-
+button{
+    color: #F79A05;
+}
 nav{
     width: 350%;
     line-height: 1.5rem;
@@ -126,6 +127,7 @@ nav ul li #dropd{
     background-position: center;
     background-size: cover;
 }
+
 nav ul li button{
     background-color: #0f919b;
     color: #CC5500;
