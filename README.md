@@ -45,7 +45,7 @@ A user will be able to:
 * Open the index file from the zipped file with any browser.
  ****
 ### Live Link
-- Click this link to view the live application https://
+- Click this link to view the live application https://eliazaragwaya.github.io/Lost_and_found_Recovery_System/
 ### Technology  Used
 * We used HTML for laying out the structure of the web pages
 * The CSS used to style the web pages
