@@ -39,6 +39,27 @@ body{
 
     
 }
+header h2{
+    position: relative;
+    font-size: 25px;
+    margin-right: 30px;
+    margin-top: 30px;
+    color: #0e3742;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below -42px linear-gradient(transparent, #0004)
+}
+
+header h2 span{
+    animation: animate 5s linear infinite;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+header h2 span:nth-child(even){
+    animation-delay: 0.4s;
+}
 .contactus ,h2, p{
     color: white
 }
